@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+.contentTxt p{
+	line-height: 25px;
+    margin-top: 15px;
+    font-size: 14px
+}
+.contentTxt div{
+	line-height: 25px;
+    font-size: 14px;
+	width: 850px;
+	margin:0px auto;
+}

@@ -1,0 +1,41 @@
+.container{overflow:hidden;}
+.menuleft{margin-bottom:10px;float:left;width:647px;height: 646px;overflow: hidden;}
+.menuleft h1{height: 54px;line-height: 54px;text-indent: 30px;font-size: 18px;color:#3c62ad;
+	font-weight: 700;}
+.menuleft h1{background: url(../images/oo.png) no-repeat left center;}
+.menuleftbox{padding:10px 40px 135px 30px;width: 575px;border:1px solid #eee;border-radius:2px;overflow: hidden;}
+.menuleftbox>ul{width: 100%;overflow: hidden;}
+.menuleftbox>ul li{margin-left: 28px;float: left;width: 58px;text-align: center;line-height: 30px;
+	height: 30px;cursor:pointer;color:#3c62ad;font-weight: 700;font-size: 14px;}
+.on{background:url(../images/tt.png) no-repeat left bottom;color:#888585!important; }
+.menuleftbox li:first-child{margin-left:0!important;cursor: pointer;}
+.tabtogg{width: 100%;overflow: hidden;padding-top: 15px;}
+.tabtogg li{float: left;line-height: 42px;height: 42px;width: 472px;padding-right: 100px;
+overflow: hidden;text-indent: 8px;border-bottom: 1px dashed #eee;white-space: nowrap;
+text-overflow: ellipsis;color:#666;position: relative;font-size: 12px;
+background: url(../images/hsjt.png) no-repeat left 19px;}
+.tabtogg ul{width: 100%;overflow: hidden;}
+.tabtogg li span{position: absolute;right: 0;font-size: 12px;}
+.tabtogg li:hover{color:#333;background: url(../images/hsjthover.png) no-repeat left 19px;
+	font-weight: 700;}
+.tabtogg ul{display: none;}
+.tabtogg ul:first-child{display: block;}
+.menuright{width: 340px;float: right;overflow: hidden;margin-top: 54px;height: 622px;overflow: hidden;}
+.menuright>ul{overflow: hidden;}
+.menuright>ul li{width: 335px;padding:19px 0;margin-bottom: 25px;line-height: 21px;height: 20px;
+	border:1px solid #eee;text-align: center;border-radius:2px;}
+.menuright>ul li a{font-size: 18px;color:#3c62ad;}
+.menuright>ul li img{vertical-align: middle;padding-right: 5px;}
+.menurightbottom{width: 335px;border:1px solid #eee;overflow: hidden;border-radius:2px;}
+.menurightbottom h2{background: #f9f9f9;line-height: 45px;text-indent: 34px;color:#3c62ad;border-bottom: 1px solid #eee;
+font-size: 14px;background:url(../images/messager.png) no-repeat 16px center;font-weight: 700;}
+.menurightbottom ul{padding:15px 10px 17px 15px;overflow: hidden;}
+.menurightbottom ul li{line-height: 40px;height: 40px;overflow: hidden;text-indent:25px;white-space: nowrap;border-bottom: 1px dashed #eee;
+	padding-right:90px;text-overflow: ellipsis;width: 218px;color:#333;position: relative;font-size: 12px;cursor: pointer;}
+.menurightbottom  li span{position: absolute;right: 0;font-size: 12px;}
+.pdf{background:url(../images/pdf.png) no-repeat left center; }
+.word{background:url(../images/word.png) no-repeat left center; }
+.menurightbottom ul li:hover{font-weight: 700;}
+.menurightbottom ul li:hover span{font-weight: 700;}
+
+

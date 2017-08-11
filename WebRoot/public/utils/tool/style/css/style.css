@@ -1,0 +1,50 @@
+.tree_div,.panel_div {
+	padding-right: 0px;
+	overflow-y: auto;
+	padding-left: 0px;
+	/*scrollbar-face-color: #FFFFFF;*/
+	padding-bottom: 0px;
+	/*scrollbar-highlight-color: #FFFFFF;*/
+	overflow: auto;
+	/*scrollbar-shadow-color: #919192;*/
+	color: #0B93E9;
+	/*scrollbar-3dlight-color: #AAAAAA;*/
+	line-height: 100%;
+	/*scrollbar-arrow-color: #919192;*/
+	padding-top: 0px;
+	/*scrollbar-track-color: #FFFFFF;*/
+	/*scrollbar-darkshadow-color: #FFFFFF;*/
+	letter-spacing: 1pt;
+	width: 430px;
+	height: 335px;
+	border: 1px solid #999;
+	/*border-right: 1px;*/
+	background: #FCFCFC;
+	/*border-right-color: #D9D9D9;*/
+	/*border-collapse: collapse;*/
+	/*border-right-style: groove;*/
+}
+
+/** 冻结树的首行标题 **/
+.ztree li span.button.switch.level0 {visibility:hidden; width:1px;}
+.ztree li ul.level0 {padding:0; background:none;}
+
+.panel-table {
+	margin: 4px;
+	width: 98%;
+	border: 1px solid #cccccc;
+	line-height: 18px;
+}
+
+.panel-table .suggestion-content {
+	width: 87%;
+}
+
+.panel-table .suggestion-delete-link {
+	width: 7%;
+}
+
+.empty-warn {
+	margin-top: 10px;
+	text-align: center;
+}

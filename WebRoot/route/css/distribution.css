@@ -1,0 +1,25 @@
+.container{overflow:hidden;}
+.menutop,.menumiddle,.menubottom{margin-bottom: 10px;}
+.menutop h1,.menumiddle h1,.menubottom h1{height: 54px;line-height: 54px;text-indent: 30px;font-size: 18px;color:#3c62ad;font-weight: 700;}
+.menutop h1{background: url(../images/dist_menu1.png) no-repeat left center;}
+.menumiddle h1{background: url(../images/dist_menu2.png) no-repeat left center;}
+.menubottom h1{background: url(../images/dist_menu3.png) no-repeat left center;}
+.menutopbox,.menumiddlebox{padding:18px 48px 50px 20px;overflow: hidden;border:1px solid #eee;}
+.menutopbox dl dt,.menubottombox dl dt{width: 90px;height: 78px;float: left;padding-right: 15px;padding-top: 4px;overflow: hidden;}
+.menutopbox dl dt img{width: 90px;height: 78px;padding: 0;margin: 0;}
+.menutopbox dl,.menumiddlebox li,.menubottombox dl{border-bottom: 1px dashed #eee;padding-bottom: 15px;overflow: hidden;margin-bottom: 15px;padding-top: 0}
+.menutopbox dl dd h2,.menubottombox dl dd h2{font-size: 14px;color:#333;}
+.menutopbox dl dd,.menubottombox dl dd{color:#666;line-height: 20px;font-size: 12px;}
+.menutopbox dl dd a{color: #3c62ad;float: right;font-size: 12px;}
+.menutopbox dl:hover h2,.menubottombox dl:hover h2{color:#3c62ad;}
+.menumiddlebox li{float: left;line-height: 30px;height: 30px;padding-right: 100px;overflow: hidden;text-indent: 8px;
+white-space: nowrap;text-overflow: ellipsis;width: 840px;color:#333;position: relative;font-size: 14px;background: url(../images/hsjt.png) no-repeat left 14px;}
+.menumiddlebox li span{position: absolute;right: 0;}
+.menumiddlebox li:hover{color:#3c62ad;background: url(../images/hsjthover.png) no-repeat left 14px;}
+.menumiddlebox li:hover span{color:#3c62ad;}
+.menubottombox dl dt img {width: 90px;height: 78px;padding: 0;margin: 0;}
+
+
+
+
+

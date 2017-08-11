@@ -1,0 +1,28 @@
+.ui-module {
+}
+.ui-module-table {
+	border: 1px solid #E8DBD5;/*#C8DEFF;*/
+	font-size: 14px;
+	border-collapse: collapse;
+}
+.ui-module-table tr th {
+	text-align: center;
+	color: #5E5E5E;
+	padding: 6px 2px;
+	background-color: #FFF8E8;/*#F7F7F7#F7F1EE;//#EEF3F7;*/
+	border: 1px solid #FFC0A0;/*#E8DBD5#C8DEFF;*/
+}
+.ui-module-table tr td {
+	text-align: center;
+	padding: 6px 2px;
+	background-color: #FFFFFF;
+	border: 1px solid #FFC0A0;/*#E8DBD5#C8DEFF;*/
+}
+
+
+
+/** 图表作用域的样式 **/
+.ui-chart {
+	margin-top: 10px;
+	border: 1px solid #E8DBD5;/*#C8DEFF;*/
+}

@@ -1,0 +1,43 @@
+body,dl,dt,dd,ul,ol,li,pre {
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+iframe,img {
+	border: 0;
+}	
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a img {
+	display: block;
+}
+
+li {
+	list-style: none;
+}
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	overflow-y: scroll;
+}
+
+a {
+	color: #37a;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #f60;
+}
+
+textarea {
+	font-size: 12px;
+	line-height: 1.5;
+	_font-family: STHeiti, SimSun;
+}
+

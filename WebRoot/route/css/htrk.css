@@ -1,0 +1,137 @@
+body{
+	/*background-color:#C9DEF9;*/
+	background-image: url(../images/Loginbackground.jpg);
+	background-size:100%;
+}
+.htdl{
+	width: 652px;
+	height:326px;
+	position:absolute;
+	top:18%;
+	left:27%;
+	-webkit-border-radius: 0.9em;
+	-moz-border-radius: 0.9em;
+	-o-border-radius: 0.9em;
+	-ms-border-radius: 0.9em;
+	background-image: url(../images/Loginbackground1.jpg);
+	
+}
+.zb{
+	width:250px;
+	position: relative;
+    top: 90px;
+    left: 150px;
+    font-weight: 900;
+
+    float: left;
+}
+.zb p{
+	font-size: 12px;
+    color: #04608E;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.zb p span{
+	font-size: 13px;
+    color: #494C4E;
+}
+.zb h4{
+	margin-top:27px;
+}
+.htdl1{
+	width: 300px;
+    float:right;
+	margin-top:60px;
+}
+.htdl1 input[type="text"] {
+	margin-left: 55px;
+
+	width: 48.5%;
+	margin-top:25px;
+	color: #353535;
+	background: #DDF1F1;
+	outline: none;
+	font-size: 14px;
+	padding: 8px 1.3em;
+	margin-bottom: 1em;
+	border: none;
+	-webkit-appearance: none;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
+}
+.htdl1 input[type="password"] {
+	width: 48.5%;
+	color: #353535;
+	background: #DDF1F1;
+	outline: none;
+	font-size: 14px;
+	margin-left: 55px;
+	margin-top:20px;
+	padding: 8px 1.3em;
+	margin-bottom: 1em;
+	border: none;
+	-webkit-appearance: none;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
+
+}
+.anniu input[type="submit"] {
+	border: none;
+	outline: none;
+	color: #9A9A9A;
+	background: #DDF1F1;
+	padding: 4px 15px;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	-webkit-appearance: none;
+	border-radius: 0.3em;
+	border-bottom: 3px solid rgba(191, 191, 191, 0.65);
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
+	margin-left: 57px;
+    margin-right: -17px;
+    margin-top: 20px;
+	cursor: pointer;
+}
+.anniu input[type="submit"]:hover {
+	background:#89B4FE;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.anniu input[type="reset"] {
+	border: none;
+	outline: none;
+	color: #9A9A9A;
+	background: #DDF1F1;
+	padding: 4px 15px;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	-webkit-appearance: none;
+	border-radius: 0.3em;
+	border-bottom: 3px solid rgba(191, 191, 191, 0.65);
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
+    margin-left:65px;
+    margin-top: 20px;
+	cursor: pointer;
+}
+.anniu input[type="reset"]:hover {
+	background:#89B4FE;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}

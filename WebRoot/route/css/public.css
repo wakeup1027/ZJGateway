@@ -1,0 +1,58 @@
+.header{height: 100px;background-color: #fff;}
+.headerCon,.footerConn,.navCon{width: 1000px;margin: 0 auto}
+.logo{float: left;margin-top: 23px;}
+.logo img {position: absolute;margin-top: -8px;margin-left: -61px;}
+.area{float: left;margin-top: 30px;border-left: 1px solid #ccc;color: #fa8100;font-size: 24px;line-height: 33px;margin-left: 15px;padding-left: 15px;}
+.language{float: right;}
+.language span{padding: 0px 10px;font-size: 12px;line-height: 35px;color: #333;cursor: pointer;}
+.work{color:#fa8100;font-size: 24px;float: right;margin-top: -37px;margin-right: 12px;}
+.work span{color:#fa8100;font-size: 24px;margin-left: 16px;}
+/*nav*/
+.nav{/* background: url(../images/navBg.jpg) repeat 0px 0px; */    background-color: #00659d;height: 42px;width: 100%;}
+.navCon ul li{float: left;line-height: 42px;width: 12%;text-align: center;}
+.navCon a{color: #fff;display: inline-block;width: 100%;line-height: 15px;border-right: 1px solid #fff;}
+#navSelect{/* background:url(../images/navSelect.jpg) repeat 0px 0px; */background-color: #004b8c; }
+
+
+.container{min-width: 1000px;width: 1000px;margin: 0 auto;overflow: hidden;}
+/*footer*/
+.footer{background-color: #006eab;height: 88px;color: #fff;margin-top: 50px;}
+.QR{float: left;margin-top: 13px;margin-left: 10px;}
+.copyright{float: left;border-left: 1px solid #fff;margin: 15px 0px 0px 20px;font-size: 12px;padding-left: 20px;}
+.copyright ul li{float: left;padding:0px 20px;border-right: 1px solid #fff;}
+.copyright ul{height: 22px;}
+.copyright p{line-height: 22px;text-indent: 20px;}
+
+/*page*/
+.page{float: right;padding-right: 16px;margin:28px 0px;}
+.page span{display: inline-block;width: 17px;height: 17px;background-color: #cbcbcb;color: #3d3d3d;text-align: center;margin: 0px 5px;font-size: 12px;line-height: 18px;}
+.page_on{color: #fff!important;background-color: #0C468F!important;}
+
+	
+#select select{
+	float:left;
+	margin-left:7%;
+}
+.flink{
+	margin-left:12%;
+	margin-top:13px;
+}
+.friendship{
+    border-top: 2px solid #a7d6f1;
+    margin-left: 175px;
+    width: 990px;
+    height: 100px;
+    margin-top: 20px;
+}
+.friendship li a{
+	float: left;
+    color: #333;
+    margin-top: 28px;
+    font-size: 16px;
+    line-height: 0px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.StandardHead{font-size: 17px;color: #006eaa;font-weight: 700;}
+.StandardHead span{color: #999999;margin-left: 0px;font-size: 12px;}

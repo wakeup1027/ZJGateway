@@ -1,0 +1,50 @@
+body {
+	font-size: 12px;
+}
+
+.data-panel {
+	border: 1px solid #617775;
+	width: 238px;
+	height: 350px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+
+.tree-panel {
+	background: #FFF;
+	top: 0px;
+	left: center;
+	border: 1px solid #3a9e31;//#347ADD;
+	overflow: hidden;
+	width: 240px;
+	z-index: 1000;
+	display: none;
+}
+
+.select-ctrl {
+	height: 22px;
+	margin: 1px;
+	padding-top: 7px;
+	background: #3a9e31;//#347ADD;
+	text-align: right;
+}
+
+.select-confirm {
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	padding-right: 10px;
+}
+
+.select-close {
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	padding-right: 10px;
+}
+
+.confirm_link {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}

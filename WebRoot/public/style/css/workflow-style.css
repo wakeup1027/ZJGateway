@@ -1,0 +1,40 @@
+/** 流程办理区的样式 **/
+.ui-fieldset-handle {
+	border: 2px solid #E75116;/*#8AB6E6;*/
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.ui-table-handle {
+	border: 1px solid #CCCCCC;
+}
+
+.ui-wf-state {
+	position: absolute;
+	top: 20px;
+	right: 25px;
+	color: gray;
+}
+
+.suggestion-div {
+	height: 88px;
+	position: relative;
+}
+
+.suggestion-input {
+	float: left;
+	width: 60%;
+	height: 88px;
+}
+
+.suggestion-operation {
+	float: left;
+	/*width: 40%;
+	//height: 88px;*/
+	vertical-align: middle;
+}
+
+.suggestion-add {
+	padding-top: 20px;
+	margin-bottom: 10px;
+}

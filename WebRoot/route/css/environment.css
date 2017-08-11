@@ -1,0 +1,22 @@
+.introduce{border: 1px solid #eee;padding: 15px 10px;margin-top: 20px;float: left;margin-bottom: 25px;}
+.introduce img{float: left;}
+.introduce ul{float: left;width: 736px;margin-left: 15px;padding-top: 4px;}
+.introduce ul li{line-height: 24px;font-size: 12px;text-indent: 20px;}
+
+.advantage{border: 1px solid #eee;}
+.advantage ul li{float: left;font-size: 18px;color: #0a62a0;font-weight: bold;text-align: center;padding: 15px 40px;text-indent: 10px;cursor: pointer;}
+.advantage ul li:nth-child(1){background: url(../images/swkk_select.png) no-repeat 24px 13px;}
+.advantage ul li:nth-child(2){background: url(../images/hg.png) no-repeat 22px 14px;}
+.advantage ul li:nth-child(3){background: url(../images/cb.png) no-repeat 24px 14px;}
+.advantage ul li:nth-child(4){background: url(../images/fuc.png) no-repeat 25px 15px;}
+.advantage ul li:nth-child(5){background: url(../images/gg.png) no-repeat 22px 15px;}
+
+.advantage{border:1px solid #eee;float: left;padding-bottom: 20px;}
+.lists{height: 472px;overflow: hidden;}
+.lists .demo{width: 200px;margin: 0px 20px;margin-top: 25px;float: left;padding-left: 35px;}
+.lists .demo p{font-size: 14px;line-height: 42px;border-bottom: 1px solid #eee;color: #606060;}
+.lists .demo span{line-height: 20px;margin-top: 5px;display: inline-block;color: #606060;font-size: 12px;}
+
+.selectd{color: #fff!important;background-color: #0a62a0!important;}
+
+.demo img{width: 206px;height: 114px;}

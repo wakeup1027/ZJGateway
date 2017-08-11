@@ -1,0 +1,42 @@
+.Mechanism .title{width: 600px;line-height: 60px; color: #3c62ad; font-size: 18px; background: url(../images/oo.png) no-repeat 0px 21px; text-indent: 30px; font-weight: bold;}
+.Mechanism{width: 600px;}
+.natit {height: 20px; border-bottom: 2px solid #eee; margin-bottom: 6px; }
+.natit li{float: left;width: 80px;height: 22px;line-height: 10px;color: #3c62ad;font-weight: bold;cursor: pointer;}
+.NewsDetailBg {background: url(../images/tt.png) no-repeat 0px 16px; color: #888585!important; }
+.MechanismContent{border: 1px solid #eee;padding:20px 15px;float: left;}
+.w1 h1{font-size: 22px;text-align: center;line-height: 97px;color: #666;}
+.w1 ul li{line-height: 25px;text-indent: 22px;color: #666;}
+.w1 ul{display: none;}
+.w1 ul:first-child{display: block;}
+
+.ReportGuidance {width: 575px; float: left; border: 1px solid #eee;margin-left: 15px; padding: 2px; }
+.TitleTip {border-bottom: 2px solid #eee; line-height: 24px; color: #3c62ad; font-weight: 700; text-indent: 25px; background: #f9f9f9 url(../images/laba.png) no-repeat 4px 5px; }
+.ReportGuidance ul {padding: 10px 20px 15px 17px; }
+.ReportGuidance ul li {line-height: 35px; border-bottom: 1px dashed #ccc; text-indent: 17px; background: url(../images/hsjt.png) no-repeat 3px 15px; color: #666;cursor: pointer; }
+.ReportGuidance ul li span {color: #666;float: right;}
+/*汕尾计划*/
+.planning{margin-top: 30px;width: 605px;float: left;}
+.planning .title {width: 600px; line-height: 60px; color: #3c62ad; font-size: 18px; background: url(../images/house.png) no-repeat 0px 21px; text-indent: 30px; font-weight: bold; }
+.planningEg{border: 1px solid #eee;padding: 15px 15px;float: left;}
+.planningEg dl, .menumiddlebox li, .menubottombox dl {border-bottom: 1px dashed #eee; padding-bottom: 15px; overflow: hidden; margin-bottom: 15px; padding-top: 0; }
+.planningEg dl dt, .menubottombox dl dt {width: 90px; height: 78px; float: left; padding-right: 15px; padding-top: 4px; overflow: hidden; }
+.planningEg dl dt img {width: 90px; height: 78px; padding: 0; margin: 0; }
+.planningEg dl dd h2,{font-size: 14px; color: #333; }
+.planningEg dl dd{color: #666; line-height: 20px; font-size: 12px; }
+.planningEg dl dd h2{line-height: 40px;}
+
+/*统计数据*/
+.statistical_data{float: left;width: 365px;margin-top: -472px;margin-left: 15px;}
+.statistical_data .title {line-height: 60px; color: #3c62ad; font-size: 18px; background: url(../images/data.png) no-repeat 0px 21px; text-indent: 30px; font-weight: bold; }
+.data_content{padding: 10px 15px;border: 1px solid #eee;float: left;}
+.data_content img{width: 335px;margin-bottom: 10px;}
+.data_content ul li{font-size: 12px;color: #666;line-height: 45px;border-bottom: 1px dashed #eee;}
+.data_content ul li span{float: right;font-size: 12px;}
+
+/*重点招商项目*/
+.Key_project .title {line-height: 60px; color: #3c62ad; font-size: 18px; background: url(../images/data.png) no-repeat 0px 21px; text-indent: 30px; font-weight: bold; }
+.Key_project_content{padding: 20px 37px;border: 1px solid #eee;float: left;}
+.Key_project_content ul li ul{border-bottom: 1px dashed #eee;padding-bottom: 15px;}
+.Key_project_content ul li h1{font-size: 14px;line-height: 40px;color: #3c62ad;}
+.Key_project_content ul li h1 span{float: right;font-size: 12px;}
+.Key_project_content ul li ul li{font-size: 12px;line-height: 20px;color: #666;}

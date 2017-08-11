@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+ 	<!-- 指定允许上传的文件最大字节数。默认值是2097152(2M) -->
+	<constant name="struts.multipart.maxSize" value="999999999"/>
+    <constant name="struts.custom.i18n.resources" value="message"/>
+    <constant name="struts.multipart.saveDir" value="/tmp"/>
+    
+	<package name="my-default" extends="json-default">
+		<global-results>
+			<result name="json" type="json">
+				<param name="contentType">text/html</param>
+				<param name="excludeNullProperties">true</param>
+				<param name="noCache">true</param>
+			</result>
+			<result name="down" type="stream">
+				<param name="allowCaching">true</param>
+				<param name="bufferSize">1024</param>
+				<param name="inputName">inputStream</param>
+				<param name="contentLength">${size}</param>
+				<param name="contentType">${contentType}</param>
+				<param name="contentDisposition">attachment;filename=${fileName}</param>
+			</result>
+			<result name="stream" type="stream">
+				<param name="allowCaching">true</param>
+				<param name="bufferSize">1024</param>
+				<param name="inputName">inputStream</param>
+				<param name="contentType">${contentType}</param>
+			</result>
+		</global-results>
+		<!-- 上传资料 -->
+     	 <action name="upload_*" method="{1}" class="com.solar.actions.UploadAction">
+     		<result type="json">
+				<param name="root">map</param>
+			</result>
+     	</action>
+	</package>
+	 <package name="actions" extends="struts-default" namespace="/">
+	 	
+		<!--门户 -->
+		<action name="gateway_*" method="{1}" class="com.solar.actions.GatewayAction">
+			<result name="index">/WEB-INF/webPortal/index.jsp</result>
+			<result name="communication">/WEB-INF/webPortal/communication.jsp</result>
+			<result name="distribution">/WEB-INF/webPortal/distribution.jsp</result>
+			<result name="environment">/WEB-INF/webPortal/environment.jsp</result>
+			<result name="informationDisclosure">/WEB-INF/webPortal/informationDisclosure.jsp</result>
+			<result name="services">/WEB-INF/webPortal/services.jsp</result>
+			<result name="touchuUs">/WEB-INF/webPortal/touchuUs.jsp</result>
+			<result name="detailPage">/WEB-INF/webPortal/detailPage.jsp</result>
+			<result name="addInformation">/WEB-INF/informationInput/addInformation.jsp</result>
+			<result name="updateInformation">/WEB-INF/informationInput/updateInformation.jsp</result>
+			<result name="queryInformation">/WEB-INF/informationInput/queryInformation.jsp</result>
+			<result name="dustbinInformation">/WEB-INF/informationInput/dustbinInformation.jsp</result>
+			<result name="seeInformation">/WEB-INF/informationInput/seeInformation.jsp</result>
+			<result name="homeInvestmentProjects">/WEB-INF/informationInput/homeInvestmentProjects.jsp</result>
+			<result name="index1">/WEB-INF/index1.jsp</result>
+			<result name="tolist" type="redirectAction">gateway_seeInformation</result>
+			<result name="tolist1" type="redirectAction">gateway_dustbin</result>
+			<result name="moreQuery">WEB-INF/webPortal/moreQuery.jsp</result>
+			<result name="parkCarrier">/WEB-INF/webPortal/parkCarrier.jsp</result>
+			<result name="notificationAnnouncement">/WEB-INF/webPortal/notificationAnnouncement.jsp</result>
+			<result name="mailbox">/WEB-INF/webPortal/mailbox.jsp</result>
+			<result name="complaint">/WEB-INF/webPortal/complaint.jsp</result>
+			<result name="opinionCollection">/WEB-INF/webPortal/opinionCollection.jsp</result>
+			<result name="privacyProtection">/WEB-INF/webPortal/privacyProtection.jsp</result>
+			<result name="disclaimerOfLiability">/WEB-INF/webPortal/disclaimerOfLiability.jsp</result>
+			<result name="siteMap">/WEB-INF/webPortal/siteMap.jsp</result>
+			<result name="dataDownload">/WEB-INF/webPortal/dataDownload.jsp</result>
+			
+			<result name="survey">/WEB-INF/enterShanwei/survey.jsp</result>
+			<result name="advantage">/WEB-INF/enterShanwei/advantage.jsp</result>
+			<result name="carrier">/WEB-INF/enterShanwei/carrier.jsp</result>
+			<result name="cost">/WEB-INF/enterShanwei/cost.jsp</result>
+			<result name="economicDevelopment">/WEB-INF/enterShanwei/economicDevelopment.jsp</result>
+			<result name="shanweiPolicy">/WEB-INF/enterShanwei/shanweiPolicy.jsp</result>
+			<result name="trailer">/WEB-INF/enterShanwei/trailer.jsp</result>
+			
+			<result name="information">/WEB-INF/investmentInformation/information.jsp</result>
+			<result name="dataStatistical">/WEB-INF/investmentInformation/dataStatistical.jsp</result>
+			<result name="plan">/WEB-INF/investmentInformation/plan.jsp</result>
+			<result name="keyInvestment">/WEB-INF/investmentInformation/keyInvestment.jsp</result>
+			<result name="investmentGuide">/WEB-INF/investmentInformation/investmentGuide.jsp</result>
+			
+			<result name="theCountyIndustrialZone">/WEB-INF/industrialDistribution/theCountyIndustrialZone.jsp</result>
+			<result name="keyindustry">/WEB-INF/industrialDistribution/keyindustry.jsp</result>
+			<result name="settledProject">/WEB-INF/industrialDistribution/settledProject.jsp</result>
+			
+			<!-- <result name="supportPolicy">/WEB-INF/investmentPolicy/supportPolicy.jsp</result>
+			<result name="policyInterpretation">/WEB-INF/investmentPolicy/policyInterpretation.jsp</result> -->
+			<result name="investmentCatalogData">/WEB-INF/investmentPolicy/investmentCatalog.jsp</result>
+			<result name="investmentProcessData">/WEB-INF/investmentPolicy/investmentProcess.jsp</result>
+			<result name="functionalDepartmentsData">/WEB-INF/investmentPolicy/functionalDepartments.jsp</result>
+			<result name="fileDownload">/WEB-INF/investmentPolicy/fileDownload.jsp</result>
+			
+			<result name="investmentProjectsList">/WEB-INF/investmentProjects/investmentProjects.jsp</result>
+			
+			<result name="contactUs">/WEB-INF/aboutUs/contactUs.jsp</result>
+			<result name="mechanismFunction">/WEB-INF/aboutUs/mechanismFunction.jsp</result>
+			
+			<result name="siteSearch">/WEB-INF/siteSearch/siteSearch.jsp</result>
+			
+			
+			<result name="projectReading">/WEB-INF/contractProject/projectReading.jsp</result>
+			<result name="moreProjects">/WEB-INF/contractProject/moreProjects.jsp</result>
+			
+			<result name="contractProject">/WEB-INF/contractProject/contractProject.jsp</result>
+			<result name="agriculture">/WEB-INF/contractProject/agriculture.jsp</result>
+			<result name="electronics">/WEB-INF/contractProject/electronics.jsp</result>
+			<result name="industry">/WEB-INF/contractProject/industry.jsp</result>
+			<result name="tourism">/WEB-INF/contractProject/tourism.jsp</result>
+			<result name="serviceOutsourcing">/WEB-INF/contractProject/serviceOutsourcing.jsp</result>
+			<result name="other">/WEB-INF/contractProject/other.jsp</result>
+		</action>
+		<!-- 用户登录-->
+		<action name="userlogin_*" method="{1}" class="com.solar.actions.UserLoginAction">
+			<result name="login">/Mindex.jsp</result>
+			<result name="false">/Mindex.jsp</result>
+			<result name="success"  type="redirectAction">gateway_seeInformation</result>
+		</action>
+		<!-- 文件-->
+		<action name="file_*" method="{1}" class="com.solar.actions.FileAction">
+			<result name="list">/WEB-INF/view/file/fileList.jsp</result>
+			<result name="tolist" type="redirectAction">file_execute</result>
+		</action>
+		<!-- 图片上传-->
+		<action name="picture_*" method="{1}" class="com.solar.actions.PictureAction">
+			<result name="list">/WEB-INF/view/picture/picture.jsp</result>
+			<result name="tolist" type="redirectAction">picture_execute</result>
+		</action>
+		<!-- 局长信箱-->
+		<action name="mailbox_*" method="{1}" class="com.solar.actions.MailboxAction">
+			<result name="list">/WEB-INF/view/mailbox/secretary-mail.jsp</result>
+			<result name="queryAll">/WEB-INF/view/mailbox/detailedInformation.jsp</result>
+			<result name="modifyInformation">/WEB-INF/view/mailbox/modifyInformation.jsp</result>
+			<result name="tolist" type="redirectAction">mailbox_execute</result>
+		</action>
+		<!-- GIS产业地图-->
+		<action name="GIS_*" method="{1}" class="com.solar.actions.GISmapAction">
+		    <result name="list">/WEB-INF/view/gisMap/gisMap.jsp</result>
+		    <result name="tolist" type="redirectAction">GIS_execute</result>
+		</action>
+		<!-- 下载 -->
+		<action name="fileDownLoad_*"  method="{1}" class="com.solar.actions.FileDownLoad">  
+           <result name="success" type="stream">  
+               <param name="contentType">application/octet-stream;charset=UTF-8</param>  
+               <param name="contentDisposition">attachment;fileName="${downFileName}"</param>  
+               <param name="inputName">inputStream</param>  
+               <param name="bufferSize">1024</param>  
+           </result>  
+     	</action> 
+	</package>
+</struts>    

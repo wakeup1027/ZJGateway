@@ -1,0 +1,165 @@
+body,form {
+	margin: 0;
+	padding: 0;
+}
+
+body,div,p,dl,dt,dd,ul,ol,li,hr,pre,table,td,th,fieldset,legend,input,select,button,textarea,form,img {
+	font-size: 14px;
+}
+
+html {
+	/*background: #F0FEF2;
+	//min-height: 100%;*/
+}
+
+body {
+	/*min-height: 100%;*/
+	background:#fafafa;
+}
+
+.ui-title {
+	font-size: 15px;
+	font-weight: 700;
+	height: 30px;
+	text-align: center;
+	/*padding-top: 5px;*/
+	color: #BE4211;/*#E75116;*/
+}
+
+.container {
+	padding: 10px;
+	/*background: #FAF6F2;//#F2F6FA;//#eef3f7;//#F9F9F9;
+	//min-height: 100%;
+	//position: absolute;
+	//top: 10px;
+	//right: 10px;
+	//bottom: 10px;
+	//left: 10px;
+	*/
+}
+
+
+
+
+
+/** 查询区域的样式 **/
+.ui-search {
+	margin-bottom: 10px;
+}
+.ui-search-table {
+	border: 1px solid #E8DBD5;/*#C8DEFF;//#CCCCCC;*/
+	background: #FFFFFF;/*#F2F6FA;//#FFFFFF;*/
+	border-collapse: collapse;
+}
+.ui-search-table .search-box {
+	background: #F7F1EE;/*#F2F6FA;*/
+}
+.ui-search-table tr th {
+	background-color: #FFF8E8;/*#F7F7F7#EEF3F7;*/
+	text-align: right;
+	font-weight: normal;
+}
+.ui-search-table tr th,.ui-search-table tr td {
+	height: 26px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #FFC0A0;/*#E8DBD5#C8DEFF;//#CCCCCC;*/
+}
+
+
+
+
+
+/** 列表区域的样式 **/
+.ui-list {
+	
+}
+.ui-list-table {
+	border: 1px solid #E8DBD5;/*#C8DEFF;//#CCCCCC;*/
+	table-layout: fixed;
+	word-break: break-all;
+	word-wrap: break-word;
+	border-collapse: collapse;
+}
+.ui-list-table tr th {
+	text-align: left;
+	height: 26px;
+	color: #666666;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #F7F1EE;/*#B1D1E6;//#EAEAEA;*/
+	border: 1px solid #E8DBD5;/*#C8DEFF;//#D3E8FF;//#CCCCCC;*/
+}
+.ui-list-table .first-cell{
+	border-left: 0;
+}
+.ui-list-table tr td {
+	text-align: left;
+	height: 28px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #FFFFFF;
+	border: 1px solid #E8DBD5;/*#C8DEFF;*/
+}
+
+
+
+
+/** 编辑区域的样式 **/
+.ui-edit {
+	/*padding-bottom: 10px;*/
+}
+.ui-edit-table {
+	border: 1px solid #E8DBD5;/*#D5DFE8;//#CCCCCC;*/
+	background: #FFFFFF;
+	border-collapse: collapse;
+}
+.ui-edit-table tr th {
+	background-color: #FFF0CF;/*#FFF5D0;//#F7F1EE;//#EEF3F7;*/
+	text-align: right;
+	font-weight: normal;
+	color: #BE4211;/*#E75116;*/
+}
+.ui-edit-table tr th,.ui-edit-table tr td {
+	height: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #FFCDB4;/*#E8DBD5;//#D5DFE8;//#CCCCCC;*/
+}
+/** 编辑区域的栏目标题 **/
+.ui-edit-table th.column-title {
+	text-align: left;
+	font-weight: bold;
+}
+
+
+
+
+.ui-detail,.ui-simple {
+	padding: 0;
+}
+.ui-page {
+	border: 1px solid #CCCCCC;
+	border-top: 0;
+}
+
+.font-gray {
+	color: gray;
+}
+
+.ui-edit-table tr td.operate-area {
+	height: 50px;
+	text-align: center;
+	background-color: #FFF0CF;/*#F7F1EE;//#EEF3F7;*/
+}
+
+.ui-file {
+	margin: 5px 0;
+}
+.file-list {
+	margin: 5px 0;
+}
+.ui-row {
+	margin: 5px 0;
+}
+

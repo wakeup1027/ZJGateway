@@ -1,0 +1,215 @@
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+/** 设置默认字体 **/
+body,
+button, input, select, textarea /* for ie */ {
+    font: 14px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+}
+
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+img{
+	border:none;
+}
+
+/**  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~kalok start~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ **/
+
+body{	
+	font-size:14px;
+	background:#f9f8f6;
+	}
+	
+a{
+	color:#404040;
+}
+.clear{
+	clear:both;
+}
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+
+
+/***************************/
+.indexbox{ width:998px; margin:0px auto; background:#2963a3; padding-bottom:2px;}
+.topbar{ height:36px; overflow:hidden; zoom:1; background:url(../images/indexbj.jpg) repeat-x left -41px; margin-bottom:3px;}
+.topbar .fleft,.topbar .fright{ height:36px;}
+.topbar .fleft{ overflow:hidden; zoom:1;}
+.topbar .fleft p{ float:left; border-right:1px solid #fff;}
+.topbar .fleft p a,.topbar .fright a{ font:normal 16px/36px 微软雅黑; padding:0px 24px; text-decoration:none; color:#fff;display:inline-block}
+.topbar .fleft .on a{ background:url(../images/indexbj.jpg) repeat-x left -195px; }
+.topbar .fleft p a:hover{ background:url(../images/indexbj.jpg) repeat-x left -195px; }
+.topbar .fright p a{ background:url(../images/indexbj.jpg) repeat-x left -236px;}
+
+.leftbar{ float:left; width:204px; margin-left:3px; border:1px solid #f3eff0; border-right:none; height:757px; background:url(../images/leftbarbj.jpg) repeat-x #84acd0;}
+.leftbar .bartitle{ height:41px; color:#a0bddb; font:normal 12px/40px 宋体; margin-left:25px; overflow:hidden; zoom:1;}
+.leftbar .bartitle .fright{ width:7px; margin:18px 12px 0px 0px;}
+.leftbar .bartitle .fright a{ text-indent:-9999px; height:4px; background:url(../images/indexbj.jpg) no-repeat; display:block;}
+.leftbar .bartitle .fright .p1{ background-position: left -279px; margin-bottom:2px;}
+.leftbar .bartitle .fright .p2{ background-position: left -285px;}
+.leftbar .leftmean{ }
+.leftbar .leftmean a{ font:normal 14px/29px 微软雅黑; text-decoration:none; color:#fff;}
+.leftbar .leftmean dd{padding-left:19px; }
+.leftbar .leftmean dt a{ height:42px;  font:bold 16px/42px 微软雅黑; color:#fff;}
+.leftbar .leftmean dd a:hover{ color:#FC0;}
+.leftbar .leftmean dt{ background:url(../images/indexbj.jpg) repeat-x left -87px;padding-left:19px; height:42px; margin:3px 0px;}
+.leftbar .leftmean .on{ background:url(../images/indexbj.jpg) repeat-x left -141px;}
+.leftbar .leftmean .on a{color:#2274be;}
+
+.rightbar{ float:left; width:90%; height:759px;}
+.rightbar .infotitle{ overflow:hidden; zoom:1; border-bottom:1px solid #e0e0e0; padding-left:29px; margin:15px 15px; color:#656565; font:bold 14px/28px 宋体; background:url(../images/indexbj.jpg) no-repeat left top;}
+.rightbar .infotitle .more{ float:right;}
+.rightbar .infotitle .more a{font:normal 12px/28px 宋体; color:#989898; text-decoration:none;}
+.rightbar .infotitle .more a:hover{ color:#C00;}
+.rightbar .infotitle .more{ color:#86add6; font:bold 16px/28px 微软雅黑;}
+
+.rightbar .infoboxleft{ float:left; width:50%}
+.rightbar .infobox{color:#666; font:normal 14px/27px 宋体; margin-bottom:34px;}
+.rightbar .infobox span{ color:#fa8905; font:bold 14px/27px 微软雅黑; margin:0px 4px 0px 2px;}
+.rightbar .infobox .userinfo{ margin:0px 45px; }
+.rightbar .infobox .userinfo a{ color:#2155a8; text-decoration:underline;}
+.rightbar .infobox .userinfo a:hover{ color:#C00;}
+.rightbar .infobox .totletxt{ margin:0px 45px}
+.rightbar .infobox .imgtxt{ overflow:hidden; zoom:1;  margin-left:45px;}
+.rightbar .infobox .imgtxt img{ display:block; margin-bottom:3px;}
+.rightbar .infobox .imgtxt li{ float:left; width:80px; margin-right:75px; text-align:left; text-align:left;}
+.rightbar .infobox .imgtxt .endbox{ margin-right:0px;}
+.rightbar .infobox .imgtxt a{ color:#666; text-decoration:none;}
+.rightbar .infobox .hisinfo{ margin:0px 45px;}
+.rightbar .infobox .hisinfo li{ overflow:hidden; zoom:1;}
+.rightbar .infobox .hisinfo span{ float:right; font:normal 14px/27px 宋体; color:#666;}
+
+.toper{ background:url(../images/topbj.jpg) repeat-x; height:63px;}
+
+
+
+/*编辑页的title*/
+.edit_title{color:#347ADD;font-weight: bold;}
+
+/** 标题的样式 **/
+.title{text-align: center;background: #f9f8f6;height: 30px;margin-top: 15px;font-size: 16px;font-weight: bold;}
+
+
+/* Default button styles */
+/*
+.pure-button ::-moz-focus-inner {
+	padding: 0;
+	border: 0
+}
+.pure-button {
+	overflow: visible;
+	padding: .14em 0.5em;
+	color: #FFF;
+	cursor: pointer;
+	font-weight: 700;
+	border: 1px solid #999;
+	border: 0 rgba(0, 0, 0, 0);
+	background-color: #5698DA;//#1E9EEE;
+	text-decoration: none;
+	border-radius: 3px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition: .1s linear -webkit-box-shadow;
+	-moz-transition: .1s linear -moz-box-shadow;
+	-ms-transition: .1s linear box-shadow;
+	-o-transition: .1s linear box-shadow;
+	transition: .1s linear box-shadow
+}
+.pure-button-hover,.pure-button:hover,.pure-button:focus {
+	filter: progid : DXImageTransform . Microsoft .
+		gradient(startColorstr = '#00000000', endColorstr = '#1a000000',
+		GradientType = 0);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent),
+		color-stop(40%, rgba(0, 0, 0, .05) ), to(rgba(0, 0, 0, .1) ) );
+	background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, .05)
+		40%, rgba(0, 0, 0, .1) );
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, .05) 0,
+		rgba(0, 0, 0, .1) );
+	background-image: -ms-linear-gradient(transparent, rgba(0, 0, 0, .05)
+		40%, rgba(0, 0, 0, .1) );
+	background-image: -o-linear-gradient(transparent, rgba(0, 0, 0, .05) 40%,
+		rgba(0, 0, 0, .1) );
+	background-image: linear-gradient(transparent, rgba(0, 0, 0, .05) 40%,
+		rgba(0, 0, 0, .1) )
+}
+.pure-button:focus {
+	outline: 0
+}
+.pure-button-active,.pure-button:active {
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) inset, 0 0 6px
+		rgba(0, 0, 0, .2) inset
+}
+.pure-button[disabled],.pure-button-disabled,.pure-button-disabled:hover,.pure-button-disabled:focus,.pure-button-disabled:active
+	{
+	border: 0;
+	background-image: none;
+	filter: progid : DXImageTransform . Microsoft .
+		gradient(enabled = false);
+	filter: alpha(opacity = 40);
+	-khtml-opacity: .4;
+	-moz-opacity: .4;
+	opacity: .4;
+	cursor: not-allowed;
+	box-shadow: none
+}
+.pure-button ::-moz-focus-inner {
+	padding: 0;
+	border: 0
+}
+
+
+.search-button {
+	width: 70px;
+}
+*/
+
+.ui-show-div {margin-bottom:10px;}
+.ui-show-table {
+	border: 1px solid #D5DFE8;
+	border-top: 0;
+	border-left: 0;
+	background: #FFFFFF;
+}
+.ui-show-table tr td {
+	/*text-align: left;*/
+	height: 26px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #D5DFE8;
+	border-right: 0;
+	border-bottom: 0;
+}
+.ui-td-title {
+	background-color: #EEF3F7;
+	text-align: right;
+}
+
+/** 给input的placeholder设置颜色 **/
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #999;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #999;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #999;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #999;
+}
+
+table#theTable tr th {
+	color: rgb(231, 81, 22);
+}
+table#theTable tr th a {
+	color: rgb(231, 81, 22);
+}

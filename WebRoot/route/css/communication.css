@@ -1,0 +1,44 @@
+/* .container .qwe{border-bottom: 1px solid #eee; font-size: 16px;color: #616060;text-indent: 20px;background: url(../images/book.png) no-repeat 0px 12px;    display: block; width: 98%; line-height: 39px;} */
+
+.container{overflow:hidden;}
+.menubottom{margin-bottom: 10px;}
+.menubottom h1{height: 54px;line-height: 54px;text-indent: 30px;font-size: 18px;color:#3c62ad;font-weight: 700;}
+.menubottom h1{background: url(../images/dist_menu3.png) no-repeat left center;}
+.menubottombox dl dt{width: 90px;height: 78px;float: left;padding-right: 15px;padding-top: 4px;overflow: hidden;}
+.menubottombox dl{border-bottom: 1px dashed #eee;padding-bottom: 15px;overflow: hidden;margin-bottom: 15px;padding-top: 0}
+.menubottombox dl dd h2{font-size: 14px;color:#333;}
+.menubottombox dl dd{color:#666;line-height: 20px;font-size: 12px;}
+.menubottombox dl:hover h2{color:#3c62ad;}
+.menubottombox dl dt img {width: 90px;height: 78px;padding: 0;margin: 0;}
+
+
+
+
+.leftcontain{float: left; width: 590px; vertical-align: middle; }
+.news{border: 1px solid #eee; }
+.investornews{padding:15px 30px;}
+.investornews ul li{margin-top: 20px;font-size: 12px;line-height: 26px;}
+.investornews ul li span{font-size: 12px;width: 80px;display: inline-block;}
+.investornews ul li input{width: 390px;line-height: 33px;}
+.investornews ul li select{width: 134px;line-height: 33px;height: 33px;margin-left: -5px;}
+.linknews{padding:15px 30px;}
+.linknews table input[type="submit"]{background-color: #3c62ad;width: 185px;height: 30px;border: none;color: #fff;margin-top: 30px;}
+.linknews table tr{line-height: 50px;}
+.rightcontain{width: 350px;float:left;padding-left: 35px;}
+.form{border: 1px solid #eee;}
+.form span{display: block;text-align: center;font-size: 16px;line-height: 50px;border-bottom:1px solid #ccc;}
+.form form{padding: 10px 20px;}
+.rightcontain dl{margin:50px 0px 50px 0px; }
+.rightcontain dl input[type="submit"]{background-color: #3c62ad;width: 100px;height: 30px;border: none;color:#fff;line-height: 30px;margin-left:87px;margin-top: 20px;}
+.rightcontain dl dt{margin: 20px 0px 0px 20px;line-height: 30px;}
+.rightcontain dl dd{margin: 10px 0px 0px 50px;}
+.font1{line-height: 60px;color: #3c62ad;font-size: 18px;background: url(../images/wechart.png) no-repeat 0px 19px;text-indent: 30px;font-weight: bold; }
+.contacts{margin-top: 15px;margin-bottom: 15px;}
+.contacts tr td{font-size: 12px;line-height: 55px;}
+.contacts tr td input{height: 33px;width: 180px;}
+.contacts tr td:nth-child(1),.contacts tr td:nth-child(3){width: 80px;text-align: right;padding-right: 5px;}
+.contacts tr td:nth-child(3){width: 60px;}
+
+
+
+

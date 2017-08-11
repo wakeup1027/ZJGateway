@@ -1,0 +1,9 @@
+﻿@charset "utf-8";
+/*弹出的最外层div容器*/
+#popBoxDiv {background:#fff;filter:alpha(opacity:95);opacity:0.95;padding:4px;position:fixed!important;}
+
+/*table的样式*/
+.popBoxDiv_table {height:100%;border-bottom:2px solid #ddd;border-right:2px solid #ddd;}
+
+/*td,放字符串、iframe的容器*/
+#BoxDiv_Content {vertical-align:top;border:1px solid #999999;}
